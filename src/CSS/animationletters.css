@@ -1,0 +1,26 @@
+
+/* Definición de una animación llamada 'appearFromCenter' */
+@keyframes appearFromCenter {
+    /* Definición del estado inicial */
+    from {
+      opacity: 0; /* Opacidad al principio: totalmente transparente */
+      transform: translateY(-50px); /* Desplazamiento hacia arriba: -50px (media altura del elemento) */
+    }
+    /* Definición del estado final */
+    to {
+      opacity: 1; /* Opacidad al final: completamente visible */
+      transform: translateY(0); /* Sin desplazamiento vertical */
+    }
+  }
+  
+  /* Estilo para el texto con la animación */
+  .typewriter {
+    opacity: 0;
+    animation: appearFromCenter 1.5s ease forwards;
+  }
+  
+  
+  
+
+
+  

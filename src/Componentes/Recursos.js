@@ -16,7 +16,10 @@ function Recursos() {
           <div className="card-body">
             <h5 className="card-title">"Capacitacion contra Phishing"</h5>
             <p className="card-text">Fuete: Jigsaw|Goolge</p>
-            <a href="https://phishingquiz.withgoogle.com/" className="btn btn-primary">Ver más</a>
+            <a href="https://phishingquiz.withgoogle.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>
@@ -28,7 +31,10 @@ function Recursos() {
           <div className="card-body">
             <h5 className="card-title">"Campaña contra el #CYBERBULLYING"</h5>
             <p className="card-text">Fuente: @jolimadev</p>
-            <a href="https://stopcyberbullying.netlify.app/" className="btn btn-primary">Ver más</a>
+            <a href="https://stopcyberbullying.netlify.app/"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>
@@ -40,7 +46,10 @@ function Recursos() {
           <div className="card-body">
             <h5 className="card-title">"ONG: Educacion Online Gratuita a nivel mundial"</h5>
             <p className="card-text">Fuente: Khan Academy</p>
-            <a href="https://es.khanacademy.org/" className="btn btn-primary">Ver más</a>
+            <a href="https://es.khanacademy.org/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>

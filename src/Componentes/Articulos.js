@@ -16,7 +16,10 @@ function Articulos() {
           <div className="card-body">
             <h5 className="card-title">"Uso Responsable de las Redes Sociales"</h5>
             <p className="card-text">Fuente: Comisión de Derechos Humanos de Mexico.</p>
-            <a href="https://www.youtube.com/watch?v=UCCmf6Y7zgI" className="btn btn-primary">Ver más</a>
+            <a href="https://www.youtube.com/watch?v=UCCmf6Y7zgI"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>
@@ -28,7 +31,10 @@ function Articulos() {
           <div className="card-body">
             <h5 className="card-title">"Protégete de las estafas con IA"</h5>
             <p className="card-text">Fuente: DW Español.</p>
-            <a href="https://www.youtube.com/shorts/OqejEbCv4tI" className="btn btn-primary">Ver más</a>
+            <a href="https://www.youtube.com/shorts/OqejEbCv4tI" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>
@@ -40,7 +46,10 @@ function Articulos() {
           <div className="card-body">
             <h5 className="card-title">"¿Qué es el phishing y cómo debemos protegernos?"</h5>
             <p className="card-text">Fuente: SBS Perú.</p>
-            <a href="https://www.youtube.com/watch?v=M2HaMR3H0Cg" className="btn btn-primary">Ver más</a>
+            <a href="https://www.youtube.com/watch?v=M2HaMR3H0Cg" 
+             target="_blank" 
+             rel="noopener noreferrer"
+            className="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>

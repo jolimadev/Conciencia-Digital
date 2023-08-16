@@ -30,14 +30,7 @@ const Formulario = () => {
   };
 
   return (
-    <div
-      className="bg-primary py-5"
-      style={{
-        background: "rgb(2,0,36)",
-        background:
-          "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,131,60,1) 100%, rgba(0,212,255,1) 100%)",
-      }}
-    >
+    <div  className="py-5 main-section mt-5">
       <div className="container text-center text-white">
         <h2>Contacto</h2>
         <form onSubmit={handleSubmit} className="needs-validation" noValidate>

@@ -10,6 +10,7 @@ import Recursos from "./Componentes/Recursos";
 const App = () => {
   return (
     <div
+    
       style={{
         background: "rgb(2,0,36)",
         background:
@@ -43,15 +44,8 @@ const App = () => {
         </div>
       </nav>
 
-      <div
-        className="bg-primary py-5"
-        style={{
-          background: "rgb(2,0,36)",
-          background:
-            "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,131,60,1) 100%, rgba(0,212,255,1) 100%)",
-        }}
-      >
-        <div className="container text-center text-white">
+      <div className=" py-5 main-section mt-5">
+         <div className="container text-center text-white">
           <h1>¡Bienvenidos a Conciencia Digital!</h1>
           <br></br>
           <p className="typing-text">

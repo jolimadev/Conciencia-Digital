@@ -14,7 +14,7 @@
   }
   
   /* Estilo para el texto con la animación */
-  .typewriter {
+  .typing-text {
     opacity: 0;
     animation: appearFromCenter 1.5s ease forwards;
   }

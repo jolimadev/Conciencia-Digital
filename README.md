@@ -5,6 +5,7 @@
 
 WEB PAGE para fomentar la conciencia en cuanto el consumo social y personal de las herramientas digital(redes sociales,etc)
 
+![image](https://github.com/jolimadev/Conciencia-Digital/assets/84105167/f597c9c0-1c85-44b1-945d-fb7a3c9c33ff)
 
 
 

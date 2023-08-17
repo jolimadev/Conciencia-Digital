@@ -44,11 +44,13 @@ const App = () => {
         </div>
       </nav>
 
-      <div className=" py-5 main-section mt-5">
-         <div className="container text-center text-white">
+{/*Seccion Bienvenida */}      
+
+      <div className="py-4 main-section mt-5">
+         <div className="container text-center text-white font-monospace py-4 mt-5 ">
           <h1>¡Bienvenidos a Conciencia Digital!</h1>
           <br></br>
-          <p className="typing-text">
+          <p className="typing-text lh-lg">
             Nos dedicamos a promover el uso responsable de las herramientas web.
             <br />
             Reconocemos la importancia de emplear los medios digitales de manera
@@ -68,7 +70,7 @@ const App = () => {
       <Formulario />
 
       {/*FOOTER */}
-      <footer className="footer text-center bg-dark text-white py-4">
+      <footer className="footer text-center bg-dark text-white py-4 mt-4">
         <p>Made by @jolimadev</p>
         <div>
           <a

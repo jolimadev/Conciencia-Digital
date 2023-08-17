@@ -32,9 +32,9 @@ const Formulario = () => {
   return (
     <div  className="py-5 main-section mt-5">
       <div className="container text-center text-white">
-        <h2>Contacto</h2>
-        <form onSubmit={handleSubmit} className="needs-validation" noValidate>
-          <div className="form-group">
+        <h2 className='text-decoration-underline mb-5'>Contacto</h2>
+        <form onSubmit={handleSubmit} className="needs-validation shadow-lg p-5 mb-5 rounded d-grid gap-3" noValidate>
+          <div className="form-group ">
             <input
               type="text"
               placeholder="Nombre y Apellido"
@@ -65,7 +65,7 @@ const Formulario = () => {
               required
             />
           </div>
-          <button type="submit" className="btn btn-primary">Enviar</button>
+          <button type="submit" className="btn btn-primary opacity-75 bg-dark border">Enviar</button>
         </form>
       </div>
     </div>

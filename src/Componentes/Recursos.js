@@ -4,27 +4,27 @@ function Recursos() {
   return (
     <div className='py-5 main-section mt-5'>
   <div className="container text-center text-white">
-    <h2>
+    <h2 className='text-decoration-underline mb-5'>
       Recursos
     </h2>
     <div className="row">
       <div className="col-md-4 mb-4">
-        <div className="card">
-          <div className="embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" src="https://phishingquiz.withgoogle.com/" allowfullscreen></iframe>
+      <div className="card shadow-lg p-3 mb-5 rounded ">
+          <div className="embed-responsive embed-responsive-16by9 "> {/**ver como setear el overflow-hidden */}
+            <iframe className="embed-responsive-item " src="https://phishingquiz.withgoogle.com/" allowfullscreen></iframe>
           </div>
-          <div className="card-body">
-            <h5 className="card-title">"Capacitacion contra Phishing"</h5>
+          <div className="card-body ">
+            <h5 className="card-title ">"Capacitacion contra Phishing"</h5>
             <p className="card-text">Fuete: Jigsaw|Goolge</p>
             <a href="https://phishingquiz.withgoogle.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">Ver más</a>
+            className="btn btn-primary opacity-75 bg-dark border ">Ver más</a>
           </div>
         </div>
       </div>
       <div className="col-md-4 mb-4">
-        <div className="card">
+      <div className="card shadow-lg p-3 mb-5 rounded">
           <div className="embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" src="https://stopcyberbullying.netlify.app/" allowfullscreen></iframe>
           </div>
@@ -34,12 +34,12 @@ function Recursos() {
             <a href="https://stopcyberbullying.netlify.app/"
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">Ver más</a>
+            className="btn btn-primary opacity-75 bg-dark border">Ver más</a>
           </div>
         </div>
       </div>
       <div className="col-md-4 mb-4">
-        <div className="card">
+      <div className="card shadow-lg p-3 mb-5 rounded">
           <div className="embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" src="https://es.khanacademy.org/" allowfullscreen></iframe>
           </div>
@@ -49,7 +49,7 @@ function Recursos() {
             <a href="https://es.khanacademy.org/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">Ver más</a>
+            className="btn btn-primary opacity-75 bg-dark border">Ver más</a>
           </div>
         </div>
       </div>

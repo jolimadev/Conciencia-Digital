@@ -30,7 +30,7 @@ const Formulario = () => {
   };
 
   return (
-    <div  className="py-5 main-section mt-5">
+    <div id="Contacto"  className="py-5 main-section mt-5">
       <div className="container text-center text-white">
         <h2 className='text-decoration-underline mb-5'>Contacto</h2>
         <form onSubmit={handleSubmit} className="needs-validation shadow-lg p-5 mb-5 rounded d-grid gap-3" noValidate>

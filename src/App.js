@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./CSS/animationletters.css";
-///componentes Visuales
 import Formulario from "./Componentes/Formulario";
 import Articulos from "./Componentes/Articulos";
 import Recursos from "./Componentes/Recursos";
@@ -11,7 +10,7 @@ const App = () => {
   return (
     <div
       style={{
-        background: "rgb(2,0,36)",
+        backgroundColor: "rgb(2,0,36)",
         background:
           "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,131,60,1) 100%, rgba(0,212,255,1) 100%)",
       }}

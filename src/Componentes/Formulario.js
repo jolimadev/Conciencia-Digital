@@ -14,10 +14,6 @@ const Formulario = () => {
       return;
     }
 
-    // Aquí puedes agregar la lógica para enviar el formulario
-    // Por ejemplo, enviar datos a un servidor, enviar un correo, etc.
-    
-    // Después de enviar el formulario, puedes limpiar los campos
     setName("");
     setEmail("");
     setMessage("");

@@ -2,6 +2,7 @@ import React from "react";
 import imagenRecurso1 from "../imagenes/recurso1.png";
 import imagenRecurso2 from "../imagenes/recurso2.png";
 import imagenRecurso3 from "../imagenes/recurso3.png";
+import "../CSS/animationletters.css";
 
 function Recursos() {
   return (
@@ -11,10 +12,13 @@ function Recursos() {
         <div className="row">
           {/*RECURSOS CARDS */}
           <div className="col-md-4 mb-4">
-            <div className="card shadow-lg p-3 mb-5 rounded ">
+            <div
+              className="card shadow-lg p-3 mb-5 rounded "
+              style={{ backgroundColor: "#6FB1C9" }}
+            >
               <div className="embed-responsive embed-responsive-16by9 ">
                 <img
-                  className="embed-responsive-item img-fluid"
+                  className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenRecurso1}
                   alt="imagen con frase TEST de capacitacion contra el phishing"
                 />
@@ -36,10 +40,13 @@ function Recursos() {
             </div>
           </div>
           <div className="col-md-4 mb-4">
-            <div className="card shadow-lg p-3 mb-5 rounded">
+            <div
+              className="card shadow-lg p-3 mb-5 rounded"
+              style={{ backgroundColor: "#6FB1C9" }}
+            >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
-                  className="embed-responsive-item img-fluid"
+                  className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenRecurso2}
                   alt="imagen con frase quiz test contra cyberbullying"
                 />
@@ -61,18 +68,21 @@ function Recursos() {
             </div>
           </div>
           <div className="col-md-4 mb-4">
-            <div className="card shadow-lg p-3 mb-5 rounded">
+            <div
+              className="card shadow-lg p-3 mb-5 rounded"
+              style={{ backgroundColor: "#6FB1C9" }}
+            >
               <div className="embed-responsive embed-responsive-16by9">
-                <img
-                  className="embed-responsive-item img-fluid"
+              <img
+                  className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenRecurso3}
                   alt="imagen logo de Interland by Google"
                 />
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  "Interland: juego educativo de Google para enseñar a
-                  cómo ser seguros en línea."
+                  "Interland: juego educativo de Google para enseñar a cómo ser
+                  seguros en línea."
                 </h5>
                 <p className="card-text">Fuente: Google</p>
                 <a

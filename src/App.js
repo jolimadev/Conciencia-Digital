@@ -87,7 +87,7 @@ const App = () => {
 
       {/*FOOTER */}
       <footer className="footer text-center bg-dark text-white py-4 mt-4">
-        <p>Made by @jolimadev</p>
+        <p>Made with 💚 by @jolimadev</p>
         <div>
           <a
             href="https://www.linkedin.com/in/juanolima/?locale=en_US"

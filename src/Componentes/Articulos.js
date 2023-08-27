@@ -11,11 +11,14 @@ function Articulos() {
         <h2 className="text-decoration-underline mb-5">Articulos</h2>
         <div className="row">
           {/*ARTICULOS CARDS: */}
-          <div className="col-md-4 mb-4">
-            <div className="card shadow-lg p-3 mb-5 rounded">
+          <div className="col-md-4 mb-4 ">
+            <div
+              className="card shadow-lg p-3 mb-5 rounded"
+              style={{ backgroundColor: "#6FB1C9" }}
+            >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
-                  className="embed-responsive-item img-fluid"
+                  className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo1}
                   alt="imagen con frase derecho al uso seguro de las teconologias de la información"
                 />
@@ -38,10 +41,13 @@ function Articulos() {
           </div>
 
           <div className="col-md-4 mb-4">
-            <div className="card shadow-lg p-3 mb-5 rounded">
+            <div
+              className="card shadow-lg p-3 mb-5 rounded"
+              style={{ backgroundColor: "#6FB1C9" }}
+            >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
-                  className="embed-responsive-item img-fluid"
+                  className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo2}
                   alt="imagen con frase derecho al uso seguro de las teconologias de la información"
                 />
@@ -64,10 +70,13 @@ function Articulos() {
           </div>
 
           <div className="col-md-4 mb-4 ">
-            <div className="card shadow-lg p-3 mb-5 rounded ">
+            <div
+              className="card shadow-lg p-3 mb-5 rounded "
+              style={{ backgroundColor: "#6FB1C9" }}
+            >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
-                  className="embed-responsive-item img-fluid"
+                  className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo3}
                   alt="imagen con frase beware of phishing, o que es el phsiign?"
                 />

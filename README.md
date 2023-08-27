@@ -17,7 +17,7 @@ WEB PAGE para fomentar la conciencia en cuanto el consumo social y personal de l
 Licencia
 Este proyecto se distribuye bajo la Licencia MIT. Si utilizas este código como base para tu propio proyecto, asegúrate de mantener la atribución y cumplir con los términos de la licencia.
 
-(Este proyecto se inspiró en la iniciativa de Google sobre phishing y concienciación en línea.)
+(Este proyecto se inspiró en la iniciativa de Google sobre phishing y generar impacto en el consumo digital de las personas)
 
 
 Saludos!

@@ -14,7 +14,7 @@ function Articulos() {
           <div className="col-md-4 mb-4 ">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#6FB1C9" }}
+              style={{ backgroundColor: "#1d4f7c" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -23,7 +23,7 @@ function Articulos() {
                   alt="imagen con frase derecho al uso seguro de las teconologias de la información"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body text-white">
                 <h5 className="card-title">
                   "Uso Responsable de las Redes Sociales"
                 </h5>
@@ -43,7 +43,7 @@ function Articulos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#6FB1C9" }}
+              style={{ backgroundColor: "#1d4f7c" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -52,7 +52,7 @@ function Articulos() {
                   alt="imagen con frase derecho al uso seguro de las teconologias de la información"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body text-white">
                 <h5 className="card-title">
                   "Protégete de las estafas con IA"
                 </h5>
@@ -72,7 +72,7 @@ function Articulos() {
           <div className="col-md-4 mb-4 ">
             <div
               className="card shadow-lg p-3 mb-5 rounded "
-              style={{ backgroundColor: "#6FB1C9" }}
+              style={{ backgroundColor: "#1d4f7c" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -81,7 +81,7 @@ function Articulos() {
                   alt="imagen con frase beware of phishing, o que es el phsiign?"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body text-white">
                 <h5 className="card-title">
                   "¿Qué es el phishing y cómo debemos protegernos?"
                 </h5>

@@ -9,12 +9,12 @@ function Recursos() {
     <div className="py-5 main-section mt-5">
       <div className="container text-center text-white">
         <h2 className="text-decoration-underline mb-5">Recursos</h2>
-        <div className="row">
+        <div className="row ">
           {/*RECURSOS CARDS */}
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded "
-              style={{ backgroundColor: "#6FB1C9" }}
+              style={{ backgroundColor: "#1d4f7c" }}
             >
               <div className="embed-responsive embed-responsive-16by9 ">
                 <img
@@ -23,8 +23,8 @@ function Recursos() {
                   alt="imagen con frase TEST de capacitacion contra el phishing"
                 />
               </div>
-              <div className="card-body ">
-                <h5 className="card-title ">
+              <div className="card-body text-white">
+                <h5 className="card-title">
                   "Test Quiz de Capacitacion contra Phishing"
                 </h5>
                 <p className="card-text">Fuete: Jigsaw | Goolge</p>
@@ -42,7 +42,7 @@ function Recursos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#6FB1C9" }}
+              style={{ backgroundColor: "#1d4f7c" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -51,7 +51,7 @@ function Recursos() {
                   alt="imagen con frase quiz test contra cyberbullying"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body text-white">
                 <h5 className="card-title">
                   "Test Quiz de Campaña contra el CYBERBULLYING"
                 </h5>
@@ -70,7 +70,7 @@ function Recursos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#6FB1C9" }}
+              style={{ backgroundColor: "#1d4f7c" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
               <img
@@ -79,12 +79,12 @@ function Recursos() {
                   alt="imagen logo de Interland by Google"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body text-white">
                 <h5 className="card-title">
                   "Interland: juego educativo de Google para enseñar a cómo ser
                   seguros en línea."
                 </h5>
-                <p className="card-text">Fuente: Google</p>
+                <p className="card-text ">Fuente: Google</p>
                 <a
                   href="https://beinternetawesome.withgoogle.com/en_us/interland"
                   target="_blank"

@@ -41,6 +41,11 @@ const App = () => {
         </a>
       </li>
       <li className="nav-item">
+        <Link to="/LegalScreen" className="nav-link">
+          Legal
+        </Link>
+      </li>
+      <li className="nav-item">
         <a href="#Contacto" className="nav-link">
           Contacto
         </a>

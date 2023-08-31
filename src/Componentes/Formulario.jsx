@@ -59,7 +59,7 @@ const Formulario = () => {
         >
           <div className="mb-3">
             <label htmlFor="user_name" className="form-label">
-              Nombre
+              Nombre y Apellido
             </label>
             <input
               type="text"
@@ -67,12 +67,12 @@ const Formulario = () => {
               id="user_name"
               name="user_name"
               required
-              placeholder="Ingresa tú nombre y apellido"
+              placeholder="Tu nombre y apellido"
             />
           </div>
           <div className="mb-3">
             <label htmlFor="user_email" className="form-label">
-              Email
+             Tu Email
             </label>
             <input
               type="email"

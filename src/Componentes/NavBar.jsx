@@ -19,7 +19,7 @@ const NavBar = () => {
           src={imagenLogo}
           alt="Logo de Conciencia Digital"
           style={{
-            width: "75px",
+            width: "90px",
             height: "auto",
           }}
         />

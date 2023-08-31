@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./CSS/animationletters.css";
-import Formulario from "./Componentes/Formulario";
-import Articulos from "./Componentes/Articulos";
-import Recursos from "./Componentes/Recursos";
-import imagenLogo from "./imagenes/logoCD.png";
+import "../CSS/animationletters.css";
+//componentes
+// import Formulario from "../Componentes/Formulario";
+import Articulos from "../Componentes/Articulos";
+import Recursos from "../Componentes/Recursos";
 
-const App = () => {
+const HomeScreen = () => {
   return (
     <div
       style={{
@@ -16,49 +15,10 @@ const App = () => {
           "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,131,60,1) 100%, rgba(0,212,255,1) 100%)",
       }}
     >
-   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div className="container">
-    <Link to="/" className="navbar-brand">
-      <img
-        className="img-fluid"
-        src={imagenLogo}
-        alt="Logo de Conciencia Digital"
-        style={{
-          width: '75px', 
-          height: 'auto', 
-        }}
-      />
-    </Link>
-    <ul className="navbar-nav ml-auto">
-      <li className="nav-item">
-        <Link to="/" className="nav-link">
-          Inicio
-        </Link>
-      </li>
-      <li className="nav-item">
-        <a href="#Nosotros" className="nav-link">
-          Nosotros
-        </a>
-      </li>
-      <li className="nav-item">
-        <Link to="/LegalScreen" className="nav-link">
-          Legal
-        </Link>
-      </li>
-      <li className="nav-item">
-        <a href="#Contacto" className="nav-link">
-          Contacto
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
       {/*Seccion Bienvenida */}
 
-      <div className="py-4 main-section mt-5">
-        <div className="container text-center text-white font-monospace py-4 mt-5 ">
+      <div className="py-4 main-section">
+        <div className="container text-center text-white font-monospace py-5 mt-5 ">
           <h1>¡Bienvenidos a Conciencia Digital!</h1>
           <br></br>
           <p className="typing-text lh-lg">
@@ -95,8 +55,7 @@ const App = () => {
         </div>
       </div>
 
-      {/*FORMULARIO FORM CON VALIDACION BRO, implementar servicio backend*/}
-      <Formulario />
+      {/* COMPONENTE PARA NOTIFICAR EVENTOS & WEBINAR */}
 
       {/*FOOTER */}
       <footer className="footer text-center bg-dark text-white py-3 mt-3">
@@ -140,4 +99,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default HomeScreen;

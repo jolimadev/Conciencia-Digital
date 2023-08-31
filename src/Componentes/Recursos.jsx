@@ -32,7 +32,7 @@ function Recursos() {
                   href="https://phishingquiz.withgoogle.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border "
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "
                 >
                   Ver más
                 </a>
@@ -60,7 +60,7 @@ function Recursos() {
                   href="https://stopcyberbullying.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
                 >
                   Ver más
                 </a>
@@ -89,7 +89,7 @@ function Recursos() {
                   href="https://beinternetawesome.withgoogle.com/en_us/interland"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
                 >
                   {/*Guia para profesores y tutores https://storage.googleapis.com/gweb-interland.appspot.com/es-419-all/hub/pdfs/Google_SeGenialEnInternet_ElPlanDeEstudios2019.pdf*/}
                   Ver más

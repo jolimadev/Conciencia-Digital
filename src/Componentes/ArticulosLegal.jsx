@@ -37,7 +37,7 @@ function ArticulosLegal() {
                   href="https://www.ejemplolink.com/articulo-derecho-digital"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "
                 >
                   Ver más
                 </a>
@@ -73,7 +73,7 @@ function ArticulosLegal() {
                   href="https://www.theguardian.com/us-news/edward-snowden"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "
                 >
                   Ver más
                 </a>
@@ -110,7 +110,7 @@ function ArticulosLegal() {
                   href="https://www.ejemplolink.com/articulo-ia-derechos-digitales"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
                 >
                   Ver más
                 </a>

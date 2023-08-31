@@ -32,8 +32,8 @@ function Articulos() {
                   href="https://www.youtube.com/watch?v=UCCmf6Y7zgI"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
-                >
+                  className="btn btn-primary btn-outline-secondary opacity-75 bg-dark border"
+                > 
                   Ver más
                 </a>
               </div>
@@ -61,7 +61,7 @@ function Articulos() {
                   href="https://www.youtube.com/shorts/OqejEbCv4tI"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary btn-outline-secondary  opacity-75 bg-dark border"
                 >
                   Ver más
                 </a>
@@ -90,7 +90,7 @@ function Articulos() {
                   href="https://www.youtube.com/watch?v=P47IdMR7n68"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary btn-outline-secondary opacity-75 bg-dark border"
                 >
                   Ver más
                 </a>

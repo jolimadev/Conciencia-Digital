@@ -36,7 +36,7 @@ function RecursosLegal() {
                   href="https://phishingquiz.withgoogle.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border "
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "
                 >
                   Ver más
                 </a>
@@ -69,7 +69,7 @@ function RecursosLegal() {
                   href="https://stopcyberbullying.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
                 >
                   Ver más
                 </a>
@@ -103,7 +103,7 @@ function RecursosLegal() {
                   href="https://beinternetawesome.withgoogle.com/en_us/interland"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary opacity-75 bg-dark border"
+                  className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
                 >
                   Ver más
                 </a>

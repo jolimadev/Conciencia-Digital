@@ -16,7 +16,9 @@ const Formulario = () => {
     // Validacion del mail bro
     const userEmail = form.current.user_email.value;
     if (!validateEmail(userEmail)) {
-      alert("Por favor, ingrese un correo válido con dominio permitido: gmail,outlook, etc.");
+      alert(
+        "Por favor, ingrese un correo válido con dominio permitido: gmail,outlook, etc."
+      );
       return;
     }
 
@@ -39,7 +41,15 @@ const Formulario = () => {
   };
 
   return (
-    <div id="Contacto" className="py-5 main-section mt-5">
+    <div
+      id="Contacto"
+      className="py-5 mt-5 main-section"
+      style={{
+        backgroundColor: "rgb(2,0,36)",
+        background:
+          "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,131,60,1) 100%, rgba(0,212,255,1) 100%)",
+      }}
+    >
       <div className="container text-center text-white">
         <h2 className="text-decoration-underline mb-5">Contacto</h2>
         <form
@@ -57,7 +67,7 @@ const Formulario = () => {
               id="user_name"
               name="user_name"
               required
-              placeholder="Aqui ingresa tu nombre"
+              placeholder="Ingresa tú nombre y apellido"
             />
           </div>
           <div className="mb-3">
@@ -88,7 +98,7 @@ const Formulario = () => {
           </div>
           <button
             type="submit"
-            className="btn btn-primary opacity-75 bg-dark border"
+            className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
           >
             Enviar
           </button>

@@ -19,8 +19,8 @@ const NavBar = () => {
           src={imagenLogo}
           alt="Logo de Conciencia Digital"
           style={{
-            width: "90px",
-            height: "auto",
+            width: "100px",
+            height: "60px",
           }}
         />
         <button className="navbar-toggler" type="button" onClick={toggleNav}>

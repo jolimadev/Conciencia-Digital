@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Footer from "./Footer";
 
 const Formulario = () => {
   const form = useRef();
@@ -41,6 +42,7 @@ const Formulario = () => {
   };
 
   return (
+    <>
     <div
       id="Contacto"
       className="py-5 mt-5 main-section"
@@ -51,7 +53,7 @@ const Formulario = () => {
       }}
     >
       <div className="container text-center text-white">
-        <h2 className="text-decoration-underline mb-5">Contacto</h2>
+        <h2 className="text-decoration-underline mb-5 mt-5">Contacto</h2>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -91,20 +93,23 @@ const Formulario = () => {
               className="form-control"
               id="message"
               name="message"
-              rows="5"
+              rows="8"
               required
-              placeholder="Motivo de consulta.."
+              placeholder="Ingresa tu consulta.."
             />
           </div>
           <button
             type="submit"
-            className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
+            className="mt-5 btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
           >
             Enviar
           </button>
         </form>
       </div>
-    </div>
+     </div>
+     {/*el espacio en blanco se origina aqui, que podra ser? */}
+    <Footer />
+    </>
   );
 };
 

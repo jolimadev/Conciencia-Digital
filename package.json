@@ -2,8 +2,7 @@
   "name": "mi-proyecto-react",
   "version": "0.1.0",
   "private": true,
-  "main": "App.jsx", 
-  "dependencies": {
+    "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -29,10 +28,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules": {
-      "no-unused-vars": ["error", { "varsIgnorePattern": "Router" }]
-    }
+    ]  
   },
   "browserslist": {
     "production": [

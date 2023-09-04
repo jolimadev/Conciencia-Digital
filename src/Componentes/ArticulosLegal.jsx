@@ -1,8 +1,8 @@
 import React from "react";
 /*Imagenes */
-import imagenArticulo1 from "../imagenes/articulo1.png";
-import imagenArticulo2 from "../imagenes/articulo2.png";
-import imagenArticulo3 from "../imagenes/articulo3.png";
+import imagenArticulo1 from "../imagenes/imgslegal/articuloLegal2.png";
+import imagenArticulo2 from "../imagenes/imgslegal/articuloLegal1.png";
+import imagenArticulo3 from "../imagenes/imgslegal/articuloLegal3.png";
 
 function ArticulosLegal() {
   return (
@@ -20,6 +20,10 @@ function ArticulosLegal() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo1}
                   alt="imagen relacionada al derecho digital"
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
                 />
               </div>
               <div className="card-body text-white">
@@ -55,22 +59,23 @@ function ArticulosLegal() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo2}
                   alt="imagen relacionada a la privacidad en línea"
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
                 />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "El Caso de Vigilancia Masiva: Snowden y la NSA"
+                  "El Caso de Vigilancia Masiva: Edward Snowden"
                 </h5>
                 <p className="card-text">
-                  Fuente: The Guardian.
+                  Fuente: Nicolás Rivera.
                   <br />
-                  Este artículo analiza cómo el caso de Edward Snowden reveló la
-                  vigilancia masiva por parte de la NSA, desencadenando un
-                  debate global sobre la privacidad en línea y los límites de la
-                  vigilancia gubernamental.
+                  Este artículo analiza la cronologia del caso de Edward Snowden y su denuncia al gobierno de EEUU.
                 </p>
                 <a
-                  href="https://www.theguardian.com/us-news/edward-snowden"
+                  href="https://hipertextual.com/2016/03/cronologia-edward-snowden"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "
@@ -91,6 +96,10 @@ function ArticulosLegal() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo3}
                   alt="imagen relacionada a la inteligencia artificial y derechos digitales"
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
                 />
               </div>
               <div className="card-body text-white">

@@ -6,6 +6,7 @@ import Footer from "../Componentes/Footer";
 
 
 const LegalScreen = () => {
+ 
   return (
     <div
       style={{

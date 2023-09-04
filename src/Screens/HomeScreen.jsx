@@ -7,8 +7,8 @@ import Footer from "../Componentes/Footer";
 
 
 
-
 const HomeScreen = () => {
+  
   return (
     <div
       style={{

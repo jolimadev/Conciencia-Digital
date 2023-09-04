@@ -1,14 +1,14 @@
 import React from "react";
-import imagenRecurso1 from "../imagenes/recurso1.png";
-import imagenRecurso2 from "../imagenes/recurso2.png";
-import imagenRecurso3 from "../imagenes/recurso3.png";
+import imagenRecurso1 from "../imagenes/imgslegal/RecursoLegal1.png";
+import imagenRecurso2 from "../imagenes/imgslegal/RecursoLegal2.png";
+import imagenRecurso3 from "../imagenes/imgslegal/RecursoLegal3.png";
 import "../CSS/animationletters.css";
 
 function RecursosLegal() {
   return (
     <div className="py-5 main-section mt-5">
       <div className="container text-center text-white">
-        <h2 className="text-decoration-underline mb-5">Recursos</h2>
+        <h2 className="text-decoration-underline mb-5">Recursos Educativos</h2>
         <div className="row ">
           {/*RECURSOS CARDS */}
           <div className="col-md-4 mb-4">
@@ -21,16 +21,18 @@ function RecursosLegal() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenRecurso1}
                   alt="imagen con frase TEST de capacitacion contra el phishing"
-                />
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
+             />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Curso en Línea sobre Derecho de Autor en el Entorno Digital"
+                  "Derecho de Autor Digital"
                 </h5>
                 <p className="card-text">
-                  Aprende sobre el derecho de autor en el mundo digital,
-                  incluyendo cómo proteger tus creaciones en línea y comprender
-                  los aspectos legales de compartir contenido en internet.
+                Explora cómo proteger tus creaciones en línea y comprender los aspectos legales de compartir contenido en internet.
                 </p>
                 <a
                   href="https://phishingquiz.withgoogle.com/"
@@ -53,20 +55,21 @@ function RecursosLegal() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenRecurso2}
                   alt="imagen con frase quiz test contra cyberbullying"
-                />
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
+               />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Conoce tus Derechos como Consumidor en Línea"
+                "Derechos del Consumidor en Línea"
                 </h5>
                 <p className="card-text">
-                  Infórmate sobre tus derechos al realizar compras en línea,
-                  desde la transparencia en la información hasta las políticas
-                  de devolución, en este recurso oficial de una organización de
-                  protección al consumidor.
+                Conoce tus derechos al realizar compras en línea, desde la transparencia en la información hasta las políticas de devolución.
                 </p>
                 <a
-                  href="https://stopcyberbullying.netlify.app/"
+                  href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/escuela-argentina-de-educacion-en-consumo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"
@@ -86,21 +89,21 @@ function RecursosLegal() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenRecurso3}
                   alt="imagen logo de Interland by Google"
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
                 />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Datos Personales y Privacidad en la Era Digital"
+                "Privacidad Digital"
                 </h5>
                 <p className="card-text ">
-                  Este curso en línea ofrece una comprensión profunda de los
-                  conceptos de privacidad y protección de datos, incluido el uso
-                  gubernamental de la información personal. Explora tus derechos
-                  digitales y cómo tomar medidas para proteger tu privacidad en
-                  línea. 
+                Comprende los conceptos de privacidad, protección de datos en la era digital y más derechos digitales.
                 </p>
                 <a
-                  href="https://beinternetawesome.withgoogle.com/en_us/interland"
+                  href="https://www.argentina.gob.ar/aaip/datospersonales/derechos"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"

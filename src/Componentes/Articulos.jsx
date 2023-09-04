@@ -21,6 +21,10 @@ function Articulos() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo1}
                   alt="imagen con frase derecho al uso seguro de las teconologias de la información"
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
                 />
               </div>
               <div className="card-body text-white">
@@ -50,7 +54,11 @@ function Articulos() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo2}
                   alt="imagen con frase derecho al uso seguro de las teconologias de la información"
-                />
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
+               />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
@@ -79,7 +87,11 @@ function Articulos() {
                   className="embed-responsive-item img-fluid zoom-effect"
                   src={imagenArticulo3}
                   alt="imagen con frase beware of phishing, o que es el phsiign?"
-                />
+                  style={{
+                    width: '100%',
+                    height: '250px'
+                  }}
+               />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">

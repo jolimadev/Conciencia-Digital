@@ -21,24 +21,24 @@ function ArticulosLegal() {
                   src={imagenArticulo1}
                   alt="imagen relacionada al derecho digital"
                   style={{
-                    width: '100%',
-                    height: '250px'
+                    width: "100%",
+                    height: "250px",
                   }}
                 />
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Principios Clave del Derecho Digital"
+                  "OG's protectores del Derecho Digital: La EFF"
                 </h5>
                 <p className="card-text">
-                  Fuente: Universidad de Derecho Digital.
+                  Fuente: GENBETA.
                   <br />
-                  Este artículo explora los principios fundamentales del Derecho
-                  Digital, incluyendo la privacidad en línea, la ciberseguridad
-                  y la propiedad intelectual en la web.
+                  Este artículo describe a la Electronic Frontier Foundation, la
+                  organización que protege tu privacidad y libertad online desde
+                  1990
                 </p>
                 <a
-                  href="https://www.ejemplolink.com/articulo-derecho-digital"
+                  href="https://www.genbeta.com/web/asi-es-la-electronic-frontier-foundation-la-organizacion-que-protege-tu-privacidad-y-libertad-online-desde-1990"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "
@@ -60,8 +60,8 @@ function ArticulosLegal() {
                   src={imagenArticulo2}
                   alt="imagen relacionada a la privacidad en línea"
                   style={{
-                    width: '100%',
-                    height: '250px'
+                    width: "100%",
+                    height: "250px",
                   }}
                 />
               </div>
@@ -72,7 +72,8 @@ function ArticulosLegal() {
                 <p className="card-text">
                   Fuente: Nicolás Rivera.
                   <br />
-                  Este artículo analiza la cronologia del caso de Edward Snowden y su denuncia al gobierno de EEUU.
+                  Este artículo analiza la cronologia del caso de Edward Snowden
+                  y su denuncia al gobierno de EEUU.
                 </p>
                 <a
                   href="https://hipertextual.com/2016/03/cronologia-edward-snowden"
@@ -97,8 +98,8 @@ function ArticulosLegal() {
                   src={imagenArticulo3}
                   alt="imagen relacionada a la inteligencia artificial y derechos digitales"
                   style={{
-                    width: '100%',
-                    height: '250px'
+                    width: "100%",
+                    height: "250px",
                   }}
                 />
               </div>
@@ -107,16 +108,15 @@ function ArticulosLegal() {
                   "IA y Protección de la Propiedad Digital"
                 </h5>
                 <p className="card-text">
-                  Fuente: Instituto de Ética Digital.
+                  Fuente: IBÁN GARCÍA DEL BLANCO & JOSÉ MANUEL GÓMEZ BRAVO.
                   <br />
-                  Este artículo explora cómo la inteligencia artificial plantea
-                  desafíos en la protección de la propiedad digital, y ofrece
-                  consejos sobre cómo los individuos pueden defenderse contra el
-                  robo de propiedad intelectual en un mundo cada vez más
-                  digitalizado.
+                  El artículo aborda cómo la inteligencia artificial plantea
+                  desafíos en la protección de la propiedad digital y ofrece
+                  consejos para defenderse contra el robo de propiedad
+                  intelectual en un mundo cada vez más digitalizado
                 </p>
                 <a
-                  href="https://www.ejemplolink.com/articulo-ia-derechos-digitales"
+                  href="https://elpais.com/opinion/2022-11-16/la-propiedad-intelectual-en-la-inteligencia-artificial.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary"

@@ -21,7 +21,7 @@ const HomeScreen = () => {
 
       <div className="py-4 main-section">
         <div className="container text-center text-white font-monospace py-5 mt-5 ">
-          <h1>¡Bienvenidos a Conciencia Digital!</h1>
+          <h1 className="mb-4 mt-5">¡Bienvenidos a Conciencia Digital!</h1>
           <br></br>
           <p className="typing-text lh-lg">
             Nos dedicamos a promover el uso responsable de las herramientas web.
@@ -40,8 +40,8 @@ const HomeScreen = () => {
       <Recursos />
 
       {/* DESPEDIDA Y CALL TO ACTION */}
-      <div id="Nosotros" className="py-4 main-section mt-3 mb-5">
-        <div className="container text-center text-white font-monospace py-4 mt-5">
+      <div id="Nosotros" className="py-4 main-section mt-3 mb-5 ">
+        <div className="container text-center text-white font-monospace py-4 mt-5 mb-lg-5">
           <p className="typing-text lh-lg">
             Tu compromiso con la conciencia digital es poderoso y valioso. Es
             hora de convertir lo aprendido en acciones concretas. <br />

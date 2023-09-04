@@ -18,8 +18,7 @@ const LegalScreen = () => {
       {/*Seccion Informativa*/}
       <div id="Legal" className="py-4 main-section">
         <div className="container text-center text-white font-monospace py-5 mt-5">
-          <h1>Derecho Digital: ¿Qué es?</h1>
-
+          <h1 className="mb-4 mt-5">Derecho Digital: ¿Qué es?</h1>
           <br></br>
           <p className="typing-text lh-lg">
             El Derecho Digital se refiere a las normas que regulan nuestra
@@ -69,8 +68,8 @@ const LegalScreen = () => {
       <RecursosLegal />
 
       {/* DESPEDIDA Y CALL TO ACTION */}
-      <div id="Nosotros" className="py-4 main-section mt-4 mb-5">
-        <div className="container text-center text-white font-monospace py-4 mt-5">
+      <div id="Nosotros" className="py-4 main-section mt-4 mb-5 ">
+        <div className="container text-center text-white font-monospace py-4 mt-5 mb-lg-5">
           <p className="typing-text lh-lg">
             Tu compromiso con la conciencia digital es poderoso y valioso. Es
             hora de convertir lo aprendido en acciones concretas. <br />

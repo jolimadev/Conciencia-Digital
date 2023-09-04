@@ -29,13 +29,13 @@ function RecursosLegal() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Derecho de Autor Digital"
+                  "Derechos de Autor en el Entorno Digital"
                 </h5>
                 <p className="card-text">
                 Explora cómo proteger tus creaciones en línea y comprender los aspectos legales de compartir contenido en internet.
                 </p>
                 <a
-                  href="https://phishingquiz.withgoogle.com/"
+                  href="https://www.udemy.com/course/derechos-de-autor-en-entorno-digitales/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary opacity-75 bg-dark border btn-outline-secondary "

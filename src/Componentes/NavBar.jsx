@@ -12,7 +12,7 @@ const NavBar = () => {
     setIsNavOpen(!isNavOpen);
   };
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div className="container">
         <img
           className="img-fluid"
@@ -34,6 +34,11 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item text-white">
+              <Link className="nav-link" to="/LegalScreen">
+                Legal
+              </Link>
+            </li>
+            <li className="nav-item text-white">
               <a
                 className="nav-link"
                 target="_blank"
@@ -42,11 +47,6 @@ const NavBar = () => {
               >
                 Nosotros
               </a>
-            </li>
-            <li className="nav-item text-white">
-              <Link className="nav-link" to="/LegalScreen">
-                Legal
-              </Link>
             </li>
             <li className="nav-item text-white">
               <Link className="nav-link" to="/Formulario">

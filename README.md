@@ -13,8 +13,8 @@ WEB PAGE para fomentar la conciencia en cuanto el consumo social y personal de l
 
 
 <h3>Contribuciones:</h3>
-¡Las contribuciones son bienvenidas! Si encuentras algún error, tienes ideas de mejora o deseas agregar nuevas características, no dudes en abrir un "Issue" o enviar una solicitud de pull.
-
+<strong>¡Las contribuciones son bienvenidas! Si encuentras algún error, tienes ideas de mejora o deseas agregar nuevas características, no dudes en abrir un "Issue" o enviar una solicitud de pull. La funcionalidad es nuestra prioridad en este momento, pero próximamente tenemos planes de mejora en el diseño para hacer que la experiencia sea aún mejor.</strong>
+<br>
 Licencia
 Este proyecto se distribuye bajo la Licencia MIT. Si utilizas este código como base para tu propio proyecto, asegúrate de mantener la atribución y cumplir con los términos de la licencia.
 

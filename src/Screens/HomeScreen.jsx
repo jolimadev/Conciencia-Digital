@@ -4,6 +4,7 @@ import "../CSS/animationletters.css";
 import Articulos from "../Componentes/Articulos";
 import Recursos from "../Componentes/Recursos";
 import Footer from "../Componentes/Footer";
+import Eventos from "../Componentes/Eventos";
 
 
 
@@ -33,12 +34,17 @@ const HomeScreen = () => {
         </div>
       </div>
 
+
+      <Eventos />
+
+
       {/* Sección de artículos sobre consumo consciente en redes y creadores de contenido filántropos */}
       <Articulos />
 
       {/*RECURSOS */}
       <Recursos />
 
+    
       {/* DESPEDIDA Y CALL TO ACTION */}
       <div id="Nosotros" className="py-4 main-section mt-3 mb-5 ">
         <div className="container text-center text-white font-monospace py-4 mt-5 mb-lg-5">

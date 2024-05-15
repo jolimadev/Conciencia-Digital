@@ -1,6 +1,6 @@
 import React from "react";
 /*Imagenes */
-import imagenArticulo1 from "../imagenes/articulo1.png";
+import imagenArticulo1 from "../imagenes/articulo1.jpg";
 import imagenArticulo2 from "../imagenes/articulo2.png";
 import imagenArticulo3 from "../imagenes/articulo3.png";
 
@@ -14,7 +14,7 @@ function Articulos() {
           <div className="col-md-4 mb-4 ">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -29,11 +29,11 @@ function Articulos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Uso Responsable de las Redes Sociales"
+                  "ITAA: Organismo para ayudar a personas adictas al consumo de redes social y tecnología."
                 </h5>
-                <p className="card-text">Fuente: Comisión de D.H de México.</p>
+                <p className="card-text">Fuente: Web oficial de la Organización.</p>
                 <a
-                  href="https://www.youtube.com/watch?v=UCCmf6Y7zgI"
+                  href="https://internetaddictsanonymous.org/es/espanol/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-outline-secondary opacity-75 bg-dark border"
@@ -47,7 +47,7 @@ function Articulos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -62,11 +62,11 @@ function Articulos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Protégete de las estafas con IA"
+                  "Cómo evitar las estafas generadas por la IA"
                 </h5>
-                <p className="card-text">Fuente: DW Español.</p>
+                <p className="card-text">Fuente: acens by Telefónica Tech.</p>
                 <a
-                  href="https://www.youtube.com/shorts/OqejEbCv4tI"
+                  href="https://blog.acens.com/general/como-evitar-las-estafas-generadas-por-la-ia/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-outline-secondary  opacity-75 bg-dark border"
@@ -80,7 +80,7 @@ function Articulos() {
           <div className="col-md-4 mb-4 ">
             <div
               className="card shadow-lg p-3 mb-5 rounded "
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -95,11 +95,11 @@ function Articulos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "¿Qué es el phishing y cómo debemos protegernos?"
+                  "¿Qué es el phishing y cómo prevenirlo?"
                 </h5>
-                <p className="card-text">Fuente: YT COLNODO.</p>
+                <p className="card-text">Fuente: IBM.</p>
                 <a
-                  href="https://www.youtube.com/watch?v=P47IdMR7n68"
+                  href="https://www.ibm.com/es-es/topics/phishing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-outline-secondary opacity-75 bg-dark border"

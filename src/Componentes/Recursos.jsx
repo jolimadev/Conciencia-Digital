@@ -14,7 +14,7 @@ function Recursos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded "
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9 ">
                 <img
@@ -29,7 +29,7 @@ function Recursos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Test Quiz de Capacitacion contra Phishing"
+                  "Quiz game para enfrentar el Phishing"
                 </h5>
                 <p className="card-text">Fuete: Jigsaw | Goolge</p>
                 <a
@@ -46,7 +46,7 @@ function Recursos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -61,7 +61,7 @@ function Recursos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Test Quiz de Campaña contra el CYBERBULLYING"
+                  "Test para concientizar sobre el CYBERBULLYING"
                 </h5>
                 <p className="card-text">Fuente: @jolimadev</p>
                 <a
@@ -78,7 +78,7 @@ function Recursos() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
               <img

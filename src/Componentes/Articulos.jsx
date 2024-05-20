@@ -29,9 +29,9 @@ function Articulos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "ITAA: Organismo para ayudar a personas adictas al consumo de redes social y tecnología."
+                  "ITAA: Ayuda para personas adictas al consumo de redes sociales"
                 </h5>
-                <p className="card-text">Fuente: Web oficial de la Organización.</p>
+                <p className="card-text">Fuente: Web oficial del Organismo.</p>
                 <a
                   href="https://internetaddictsanonymous.org/es/espanol/"
                   target="_blank"
@@ -62,7 +62,7 @@ function Articulos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Cómo evitar las estafas generadas por la IA"
+                  "Evitar estafas generadas por IA"
                 </h5>
                 <p className="card-text">Fuente: acens by Telefónica Tech.</p>
                 <a

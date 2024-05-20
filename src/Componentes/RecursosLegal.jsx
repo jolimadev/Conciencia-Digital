@@ -14,7 +14,7 @@ function RecursosLegal() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded "
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9 ">
                 <img
@@ -29,11 +29,10 @@ function RecursosLegal() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Derechos de Autor en el Entorno Digital"
+                  "Protege tu Creatividad"
                 </h5>
                 <p className="card-text">
-                Explora cómo proteger tus creaciones en línea y comprender los aspectos legales de compartir contenido en internet.
-                </p>
+                Aprende sobre tus derechos de autor y la legalidad al compartir contenido en la web.                </p>
                 <a
                   href="https://www.udemy.com/course/derechos-de-autor-en-entorno-digitales/"
                   target="_blank"
@@ -48,7 +47,7 @@ function RecursosLegal() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -63,11 +62,10 @@ function RecursosLegal() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                "Derechos del Consumidor en Línea"
+                "Ser Comprador Online"
                 </h5>
                 <p className="card-text">
-                Conoce tus derechos al realizar compras en línea, desde la transparencia en la información hasta las políticas de devolución.
-                </p>
+                Tus derechos al comprar en línea: información transparente y políticas de devolución.                </p>
                 <a
                   href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/escuela-argentina-de-educacion-en-consumo"
                   target="_blank"
@@ -82,7 +80,7 @@ function RecursosLegal() {
           <div className="col-md-4 mb-4">
             <div
               className="card shadow-lg p-3 mb-5 rounded"
-              style={{ backgroundColor: "#1d4f7c" }}
+              style={{ backgroundColor: "#607d8b" }}
             >
               <div className="embed-responsive embed-responsive-16by9">
                 <img
@@ -100,7 +98,7 @@ function RecursosLegal() {
                 "Privacidad Digital"
                 </h5>
                 <p className="card-text ">
-                Comprende los conceptos de privacidad, protección de datos en la era digital y más derechos digitales.
+                Entiende la privacidad y los derechos digitales en la era de los datos.
                 </p>
                 <a
                   href="https://www.argentina.gob.ar/aaip/datospersonales/derechos"

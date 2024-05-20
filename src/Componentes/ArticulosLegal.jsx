@@ -33,9 +33,7 @@ function ArticulosLegal() {
                 <p className="card-text">
                   Fuente: GENBETA.
                   <br />
-                  Este artículo describe a la Electronic Frontier Foundation, la
-                  organización que protege tu privacidad y libertad online desde
-                  1990
+                  La Electronic Frontier Foundation (EFF) protege tu privacidad y libertad online desde 1990.
                 </p>
                 <a
                   href="https://www.genbeta.com/web/asi-es-la-electronic-frontier-foundation-la-organizacion-que-protege-tu-privacidad-y-libertad-online-desde-1990"
@@ -67,13 +65,12 @@ function ArticulosLegal() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "El Caso de Vigilancia Masiva: Edward Snowden"
+                  "Vigilancia Masiva: Edward Snowden"
                 </h5>
                 <p className="card-text">
                   Fuente: Nicolás Rivera.
                   <br />
-                  Este artículo analiza la cronologia del caso de Edward Snowden
-                  y su denuncia al gobierno de EEUU.
+                  Cronología del caso de Snowden y su denuncia al gobierno de EE. UU.
                 </p>
                 <a
                   href="https://hipertextual.com/2016/03/cronologia-edward-snowden"
@@ -105,16 +102,12 @@ function ArticulosLegal() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "IA y Protección de la Propiedad Digital"
+                  "Protección de la Propiedad Digital"
                 </h5>
                 <p className="card-text">
-                  Fuente: IBÁN GARCÍA DEL BLANCO & JOSÉ MANUEL GÓMEZ BRAVO.
+                  Fuente: Ibán del Blanco & José Bravo.
                   <br />
-                  El artículo aborda cómo la inteligencia artificial plantea
-                  desafíos en la protección de la propiedad digital y ofrece
-                  consejos para defenderse contra el robo de propiedad
-                  intelectual en un mundo cada vez más digitalizado
-                </p>
+                  El artículo aborda la IA y la protección contra el robo de propiedad intelectual en línea.             </p>
                 <a
                   href="https://elpais.com/opinion/2022-11-16/la-propiedad-intelectual-en-la-inteligencia-artificial.html"
                   target="_blank"

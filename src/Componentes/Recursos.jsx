@@ -93,8 +93,7 @@ function Recursos() {
               </div>
               <div className="card-body text-white">
                 <h5 className="card-title">
-                  "Interland: juego educativo de Google para enseñar a cómo ser
-                  seguros en línea."
+                  "Interland: Juego educativo sobre Internet."
                 </h5>
                 <p className="card-text ">Fuente: Google</p>
                 <a

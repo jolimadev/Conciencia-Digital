@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Definición de una animación llamada 'appearFromCenter' */
 @keyframes appearFromCenter {
     /* Definición del estado inicial */
@@ -16,7 +16,10 @@
   /* Estilo para el texto con la animación */
   .typing-text {
     opacity: 0;
-    animation: appearFromCenter 1.5s ease forwards;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    animation: appearFromCenter 3s ease forwards;
   }
 
 

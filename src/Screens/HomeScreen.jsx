@@ -16,13 +16,15 @@ const HomeScreen = () => {
         backgroundColor: "rgb(2,0,36)",
         background:
           "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,131,60,1) 100%, rgba(0,212,255,1) 100%)",
-      }}
+          fontFamily: "Roboto, sans-serif",
+
+        }}
     >
       {/*Seccion Bienvenida */}
 
       <div className="py-4 main-section">
-        <div className="container text-center text-white font-monospace py-5 mt-5 ">
-          <h1 className="mb-4 mt-5">¡Bienvenidos a Conciencia Digital!</h1>
+        <div className="container text-center text-white py-5 mt-5 ">
+          <h1 className="mb-4 mt-5">Bienvenido a Conciencia Digital</h1>
           <br></br>
           <p className="typing-text lh-lg">
             Nos dedicamos a promover el uso responsable de las herramientas web.
@@ -35,33 +37,33 @@ const HomeScreen = () => {
       </div>
 
 
-      <Eventos />
-
 
       {/* Sección de artículos sobre consumo consciente en redes y creadores de contenido filántropos */}
       <Articulos />
+ {/* DESPEDIDA Y CALL TO ACTION */}
+ {/* DESPEDIDA Y CALL TO ACTION */}
+<div id="Nosotros" className="py-5 main-section mt-4 mb-5">
+  <div className="container text-center text-white font-monospace py-4 mt-5 mb-lg-5">
+    <figure className="text-center">
+      <blockquote className="blockquote">
+        <p>
+          “En última instancia, argumentar que no te importa el derecho a la
+          privacidad porque no tienes nada que ocultar no es diferente a decir
+          que no te importa la libertad de expresión porque no tienes nada que
+          decir.”
+        </p>
+      </blockquote>
+      <figcaption className="blockquote-footer">
+        Edward Snowden
+      </figcaption>
+    </figure>
+  </div>
+</div>
 
       {/*RECURSOS */}
       <Recursos />
 
-    
-      {/* DESPEDIDA Y CALL TO ACTION */}
-      <div id="Nosotros" className="py-4 main-section mt-3 mb-5 ">
-        <div className="container text-center text-white font-monospace py-4 mt-5 mb-lg-5">
-          <p className="typing-text lh-lg">
-            Tu compromiso con la conciencia digital es poderoso y valioso. Es
-            hora de convertir lo aprendido en acciones concretas. <br />
-            Aquí, al final de este recorrido, recordemos que la responsabilidad
-            digital está en nuestras manos. Cada clic, cada elección,
-            trasciende. Nos llena de entusiasmo compartir conocimientos y
-            experiencias contigo.
-            <br />
-            ¿Estás listo para unirte? Si tienes preguntas, sugerencias o
-            simplemente deseas colaborar con este proyecto, no dudes en ponerte
-            en contacto.
-          </p>
-        </div>
-      </div>
+      <Eventos/>
 
       {/* COMPONENTE PARA NOTIFICAR EVENTOS & WEBINAR */}
 
